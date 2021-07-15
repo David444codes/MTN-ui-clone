@@ -1,0 +1,687 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+/* Utilities */
+
+a {
+    text-decoration: none;
+}
+
+.top {
+    display: flex;
+    align-items: center;
+}
+
+.top p {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 60px;
+    font-size: #212529;
+    margin-right: 30px;
+}
+
+.top .btn {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #E12D6E;
+}
+
+/* Navigation */
+
+#head {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 15px 2%;
+    background-color: #ffcc00;
+}
+
+#head img {
+    width: 40px;
+    margin-right: 40px;
+}
+
+#head ul li {
+    display: inline-block;
+    margin-right: 30px;
+    list-style: none;
+}
+
+#head ul li a {
+    font: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    color: #000;
+}
+
+#head button {
+    padding: 5px;
+    border-radius: 20px;
+    background-color: #ffcc00;
+    outline: none;
+    border: 2px solid #000;
+    font-size: 17px;
+    margin-left: auto;
+    display: flex;
+
+}
+
+#head button svg {
+    width: 16px;
+    margin: 0px 5px;
+}
+
+#head button input {
+
+    background-color: transparent;
+    border: none;
+    outline: none;
+
+}
+
+#head .menu svg {
+    display: none;
+    width: 30px;
+    height: 30px;
+}
+
+
+/* Section */
+
+#above {
+    border-radius: 50% / 2%;
+    overflow: hidden;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+
+}
+
+#above .landing {
+    background: url('./Images/wu-yi-3BxHnbmQ69g-unsplash.jpg') no-repeat center center/cover;
+    height: 80vh;  
+    position: relative; 
+    /* z-index: -1; */
+    /* border-bottom-left-radius: 5%;
+    border-bottom-right-radius: 5%; */
+}
+
+#above .landing .content {
+    /* max-width: 540px; */
+    position: absolute;
+    top: 100px;
+    left: 100px;
+}
+
+#above .landing .content p {
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 36px;
+    color: #fff;
+}
+
+#above .landing .content h1 {
+    font-size: 70px;
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 0;
+}
+
+#above .landing .content button {
+    background-color: #ffcc00;
+    padding: 1px 15px 1px 12px;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#above .landing .content button p {
+    font-size: 15px;
+    margin-right: 20px;
+    color: #000;
+    font-weight: 600;
+}
+
+
+#above .landing .content button:hover {
+    background-color: #ffdc50;
+    transition: all .4s;
+}
+
+#above .landing .circles {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    /* background-color: #fff; */
+    position: absolute;
+    bottom: 50px;
+    left: 50%;
+}
+
+#above .landing .circles-one {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 50px;
+    left: 51%;
+}
+#above .landing .circles-two {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 50px;
+    left: 52%;
+}
+#above .landing .circles-three {
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    bottom: 50px;
+    left: 53%;
+}
+
+#above .container {
+    width: 100%;
+    height: 200px;
+    background-color: #ffcc00;
+    position: relative;
+}
+
+#above .border {
+    display: flex;
+    justify-content: center; 
+    position: absolute;
+    top: -30px;
+    left: 27%;
+    text-align: center;
+}
+
+#above .border .box {
+    width: 80px;
+    height: 80px;
+    /* border: 1px solid #000; */
+    margin: 0px 40px;
+    background-color: #fff;
+    border-radius: 3px;
+    box-shadow: 2px 2px 10px #49494969;
+    cursor: pointer;
+}
+
+#above .border .personal svg {
+    width: 50px;
+    margin-top: 15px;
+    fill: #ffcc00;
+}
+
+#above .border .business svg {
+    width: 50px;
+    margin-top: 15px;
+}
+#above .border .play svg {
+    width: 50px;
+    margin-top: 15px;
+}
+
+
+
+#above .border p {
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 14px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+#above .border .box:hover {
+    background-color: #e9e9e9;
+
+}
+
+#above .container button {
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 2px solid #fff;
+    background-color: transparent;
+    position: relative;
+    top: 100px;
+    left: 38%;
+    margin: 10px 7px;
+}
+
+#above .container button:hover {
+    background-color: #efefef;
+}
+
+#personal {
+    margin: 50px 10%;
+    border-radius: 50% / 5%;
+}
+
+#personal .top {
+    margin: 20px;
+}
+
+#personal .top svg {
+    width: 50px;
+    margin-right: 20px;
+}
+
+#personal .top p {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 60px;
+    font-size: #212529
+}
+
+#personal .image-boxes {
+    display: flex;
+}
+
+#personal .image-box {
+    width: 350px;
+    height: 350px;
+    margin-right: 15px;
+    border-radius: 15px;
+    background-color: #ffcc00;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#personal .image-box:hover {
+    box-shadow: 3px 3px 13px #b9b9b9;
+}
+
+
+
+#personal .image-boxes .image-one {
+    background: url("./Images/young-smiling-african-american-man-standing-using-laptop-computer-isolated-grey-background-ok-sign_255757-1954.jpg") no-repeat center center/cover;
+    background-blend-mode: overlay;
+    background-color: #0000003a;
+}
+
+#personal .image-boxes .image-two {
+    background: url("./Images/pexels-arianna-jadé-4006576.jpg") no-repeat center center/cover;
+    background-blend-mode: overlay;
+    background-color: #0000003a;
+
+}
+
+#personal .image-boxes .image-three {
+    background: url("./Images/travelbag.jpg") no-repeat center center/cover;
+    background-blend-mode: overlay;
+    background-color: #0000003a;
+}
+
+#personal .image-box .text-container h5 {
+    background: #ffcc00;
+   display: inline-block;
+   padding: 5px;
+}
+
+#personal .image-box .text-container h3 {
+    color: #fff;
+    margin: 10px 0px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+
+}
+
+#personal .image-box .text-container button {
+    padding: 13px 25px;
+    background-color: #ffcc00;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+
+#personal .image-box .text-container button p {
+    font-size: 15px;
+    margin-right: 20px;
+    color: #000;
+    font-weight: 600;
+}
+
+
+#personal .image-box .text-container button:hover {
+    background-color: #ffdc50;
+        transition: .9s ease-in-out;
+}
+/* 
+.curve {
+    width: 100%;
+    height: 50px;
+    background-color: #F2F2F2;
+    border-radius: 50% / 15%;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+
+} */
+
+.contain {
+    background-color: #F2F2F2;
+    border-radius: 50% / 2%;
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+    padding: 30px 0px;
+}
+
+#business {
+    margin: 50px 10%;
+    
+}
+
+#business .top p{
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 60px;
+    font-size: #212529
+}
+
+#business .top svg {
+    width: 50px;
+    margin-right: 20px;
+}
+
+#business .business-box {
+    display: flex;
+}
+
+#business .business-box .biz-box {
+    width: 350px;
+    height: 350px;
+    margin-right: 15px;
+    border-radius: 15px;
+    background-color: #ffcc00;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#business .business-box .biz-box:hover {
+    box-shadow: 5px 5px 12px #b9b9b9;
+}
+
+#business .business-box .business-box-one {
+    background: url("./Images/smiling.jpg") no-repeat center center/cover;
+    background-blend-mode: overlay;
+    background-color: #0000003a;
+}
+
+#business .business-box .business-box-two {
+    background: url("./Images/customer-service.jpg") no-repeat center center/cover;
+    background-blend-mode: overlay;
+    background-color: #0000003a;
+}
+
+#business .business-box .business-box-three {
+    background: url("./Images/young-african-businessman-sitting-his-black-car-making-phone-call-smiling-office-center-buildings_161094-2662.jpg") no-repeat center center/cover;
+    background-blend-mode: overlay;
+    background-color: #0000003a;
+}
+
+#business .business-box .biz-box .text-container h5 {
+    background-color: #fff;
+    padding: 5px;
+    font-weight: 800;
+    display: inline-block;
+}
+
+
+#business .business-box .biz-box .text-container h3 {
+    color: #fff;
+    margin: 10px 0px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+#business .business-box .biz-box .text-container button {
+    padding: 13px 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+}
+
+#business .business-box .biz-box .text-container button:hover {
+    background-color: #e9e9e9;
+}
+
+#business .business-box .biz-box .text-container button p  {
+    font-size: 15px;
+    margin-right: 20px;
+    color: #000;
+    font-weight: 600;
+}
+
+
+#play {
+    margin: 50px 0;
+}
+
+#play .top {
+    margin: 20px 10%;
+    display: flex;
+    align-items: center;
+}
+
+#play .top svg {
+    width: 50px;
+    margin-right: 20px;
+}
+
+#play .top p {
+    font-size: 35px;
+    font-weight: 500;
+    line-height: 60px;
+    font-size: #212529;
+    margin-right: 30px;
+}
+
+#play .top button {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #fff;
+    border: 2px solid #E12D6E;
+}
+
+
+
+#play .play-boxes {
+    width: 100%;
+    display: flex;
+    overflow-x: auto;
+}
+
+#play .play-boxes::-webkit-scrollbar {
+    width: 0;
+}
+
+#play .play-boxes .play-box {
+    min-width: 350px;
+    height: 350px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    background-color: #ffcc00;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+#play .play-boxes .play-box:hover {
+    box-shadow: 5px 5px 12px #b9b9b9;
+}
+
+
+#play .play-boxes .play-box-one {
+    background: url("./Images/bedguy.jpg") no-repeat center center/cover;
+    background-blend-mode: overlay;
+    background-color: #0000003a;
+}
+
+#play .play-boxes .play-box-two {
+    background: url("./Images/ayo-ogunseinde-colors.jpg") no-repeat center center/cover;
+    background-blend-mode: overlay;
+    background-color: #0000003a;
+}
+
+#play .play-boxes .play-box-three {
+    background: url("./Images/headset.jpg") no-repeat center center/cover;
+    background-blend-mode: overlay;
+    background-color: #0000003a;
+}
+
+#play .play-boxes .play-box-four {
+    background: url("./Images/happy-young-woman-making-phone-call_33839-5721.jpg") no-repeat center center/cover;
+    background-blend-mode: overlay;
+    background-color: #0000003a;
+}
+#play .play-boxes .play-box-five {
+    background: url("./Images/hAPPY\ GUY.jpg") no-repeat center center/cover;
+    background-blend-mode: overlay;
+    background-color: #0000003a;
+}
+
+
+#play .play-boxes .play-box .play-text h5 {
+    background-color: #E12D6E;
+    color: #fff;
+    padding: 2px 5px;
+    font-weight: 800;
+    display: inline-block;
+}
+
+#play .play-boxes .play-box .play-text h3 {
+    color: #fff;
+    margin: 10px 0px;
+    font-size: 24px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+#play .play-box .play-text button {
+    display: flex;
+    align-items: center;
+    padding: 13px 25px;
+    background-color: #E12D6E;
+    color: #fff;
+    border-radius: 20px;
+    outline: none;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+#play .play-box .play-text button:hover {
+    background-color: #e64680;
+}
+
+#play .play-box .play-text button p {
+    font-size: 15px;
+    margin-right: 20px;
+    color: #fff;
+    font-weight: 600;
+}
+
+
+
+
+/* #play .momo button {
+    border: 2px solid #0F6987;
+} */
+
+
+
+#play .play-boxes .play-box .momo-text h5 {
+    background: #0F6987;
+    color: #fff;
+    padding: 2px 5px;
+    font-weight: 800;
+    display: inline-block;
+}
+
+#play .play-boxes .play-box .momo-text button {
+    background: #0F6987;
+}
+
+#play .play-boxes .play-box .momo-text button:hover{
+    background-color: #2b7f9b;
+}
+
+#play .play-boxes .momo-box-one {
+    background: url("./Images/smiling\ to\ phone.jpg") no-repeat center center/cover;
+    background-blend-mode: overlay;
+    background-color: #0000003a;
+}
+#play .play-boxes .momo-box-two {
+    background: url("./Images/young-black-business-agent-meeting-260nw.jpg") no-repeat center center/cover;
+    background-blend-mode: overlay;
+    background-color: #0000003a;
+}
+#play .play-boxes .momo-box-three {
+    background: url("./Images/parkcall.jpg") no-repeat center center/cover;
+    background-blend-mode: overlay;
+    background-color: #0000003a;
+}
+
+#play .play-boxes .momo-box-four {
+    background: url("./Images/unnamed\ \(2\).jpg") no-repeat center center/cover;
+    background-blend-mode: overlay;
+    background-color: #0000003a;
+}
+
+#play .play-boxes .momo-box-five {
+    background: url("./Images/happy-black-man-making-video-260nw-1815809258.jpg") no-repeat center center/cover;
+    background-blend-mode: overlay;
+    background-color: #0000003a;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

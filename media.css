@@ -1,0 +1,9 @@
+@media screen and (max-width: 750px) {
+    #head ul li a{
+        display: none;
+    }
+
+    #head button {
+        display: none;
+    }
+}
